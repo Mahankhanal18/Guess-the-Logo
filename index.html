@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guess the Logo Game</title>
+</head>
+<body class="bg-purple-200 flex flex-col items-center justify-center min-h-screen">
+    <div class="container mx-auto text-center p-8 bg-white rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+        <h1 class="text-4xl font-bold text-blue-600 mb-6">Guess the Logo!</h1>
+        <div id="logo-container" class="mb-6"></div>
+        <div id="options" class="grid grid-cols-2 gap-6 mb-6"></div>
+        <p id="result-message" class="text-lg font-semibold text-gray-700"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
